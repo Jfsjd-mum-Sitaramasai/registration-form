@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+        <script src="reg.js"async></script>
+        <script id="info" type="text/x-handlebars-template">
+            
+        <p>Hi,{{name}} thankyou for registering,your detais are aadhar number is {{aadhar}} mobile number is {{mobile}} pan number is {{pannumber}} and address is {{address}}</p>
+          
+        </script>
+        </head>
+
+        <body style="text-align:center; background-color:rgb(236, 245, 119);">
+            <h1>Registration form</h1>
+            
+            <label for="name1">Enter your name</label>
+            <br>
+            <input type="text" name="name" id="name1" required>
+            <br>
+            <label for="user-aadhar">Aadhar number:</label>
+            <br>
+            <input type="number" id="user-aadhar" name="aadhar" required>
+            <br>
+            <label for="user-mobile">Mobile number: </label>
+            <br>
+            <input type="tel" id="user-mobile" name="mobile">
+            <br>
+            <label for="user-pan">Pan: </label>
+            <br>
+            <input type="text" id="user-pan" name="Pan">
+            <br>
+            
+            <label for="address">Enter your Address </label>
+            <br>
+            <textarea type="text" name="user-address" id="address" rows="5" columns="5"></textarea>
+            <br>
+
+            <button id="bt1">Submit</button>
+            <div id="para">
+            </div>
+
+
+
+            
+            
+        </body>
+    
+</html>
